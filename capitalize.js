@@ -1,7 +1,3 @@
-// function capitalize(string) {
-//   const newString = string.charAt(0).toUpperCase() + string.slice(1);
-//   return newString;
-// }
 function capitalize(string) {
   function containsAnyLetter(str) {
     return /[a-zA-Z]/.test(str);
